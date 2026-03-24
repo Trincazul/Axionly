@@ -1,7 +1,6 @@
 import { useTranslation } from '@/hooks/useTranslation';
 import { motion } from 'framer-motion';
 import StatsSection from '@/components/features/StatsSection';
-import TeamSection from '@/components/features/TeamSection';
 import ContactCTA from '@/components/features/ContactCTA';
 import { Target, Eye, Heart } from 'lucide-react';
 
@@ -122,7 +121,6 @@ export default function About() {
       </section>
 
       <StatsSection />
-      <TeamSection />
       <ContactCTA />
     </>
   );
