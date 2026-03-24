@@ -6,7 +6,8 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    {/* Adicionamos o basename para o React entender que o site começa em /Axionly/ */}
+    <BrowserRouter basename="/Axionly">
       <App />
     </BrowserRouter>
   </StrictMode>
